@@ -1,0 +1,137 @@
+
+.psikolojim {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.main{
+    background-image: url(media/bg.jpg);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.jumbotron-card{
+    background-color: rgba(6, 6, 6, 0.25);
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.read-more:hover {
+    color: #020202;
+}
+
+.read-more::before{
+    content: "";
+    background-color: #020202;
+    width: 48px;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    top: 11px;
+}
+
+.read-more{
+    font-weight: 700;
+    color: #020202;
+    position: relative;
+    padding-left: 62px;
+}
+
+.navbar {
+    background-color: rgba(6, 6, 6, 0.25);  
+    backdrop-filter: blur(0px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.navbar-brand, .nav-item a{
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.readmore:hover {
+    text-decoration: none;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.card {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.yazar {
+    color: #020202;
+}
+
+.yazar:hover{
+    color: #020202;
+    font-weight: 500;
+}
+
+.makaleBaslik{
+    color: rgb(11, 49, 85);
+    text-align: center;
+    font-family: 'Irrational', sans-serif;
+    font-size: 120px;
+}
+
+.codedem img{
+    width: 30px;
+    height: 30px;
+}
+
+.codedem img{
+    animation-name: spin;
+  animation-duration: 2500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.codedemText {
+    color: #70acb1;
+    font-size: 12px;
+}
+
+.copyright{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.copyright a {
+    color: #70acb1;
+}
+
+.copyright a:hover {
+    text-decoration: none;
+}
+
+.icerik{
+    margin: auto;
+}
+
+.ilgili img{
+    width: 63px;
+    height: 63px;
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+@media (max-width: 600px) {
+    .codedem {
+        margin: auto;
+    }
+}
+
